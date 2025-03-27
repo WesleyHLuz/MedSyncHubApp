@@ -29,10 +29,9 @@ export const styles = StyleSheet.create(
             //justifyContent: 'center',
         },
         logo: {
-            width: 300,
-            height: 300,
-            marginHorizontal: 120,
-
+            width: 150,
+            height: 200,
+            marginHorizontal: 120
         },
         text: {
             fontWeight: 'bold',
