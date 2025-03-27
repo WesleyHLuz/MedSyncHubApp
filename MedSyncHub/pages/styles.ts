@@ -1,5 +1,5 @@
 ﻿import {Dimensions, StyleSheet} from "react-native";
-import {themes} from "../../global/themes";
+import {themes} from "../global/themes";
 
 export const styles = StyleSheet.create(
     {
@@ -12,7 +12,7 @@ export const styles = StyleSheet.create(
             height:Dimensions.get("window").height/3,
             width: '100%',
             backgroundColor: 'white',
-            alignItems: 'center',
+            alignItems: 'center'
 
         },
         boxMid: {
@@ -26,12 +26,14 @@ export const styles = StyleSheet.create(
             width: '100%',
             backgroundColor: 'white',
             alignItems: 'center',
-            //justifyContent: 'center',
+            justifyContent: 'center',
         },
         logo: {
             width: 300,
             height: 300,
             marginHorizontal: 120,
+            justifyContent: 'center',
+            alignItems: 'center',
 
         },
         text: {
@@ -72,6 +74,11 @@ export const styles = StyleSheet.create(
             fontSize: 14,
             color: themes.colors.text,
             fontWeight: 'bold',
+
+        },
+        scrollContainer: {
+            backgroundColor: 'white',
+            flex: 1,
 
         }
 
