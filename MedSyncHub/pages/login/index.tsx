@@ -5,7 +5,7 @@ import {styles} from "./styles";
 import {MaterialIcons} from "@expo/vector-icons";
 
 // @ts-ignore
-import logo from "../../assets/logotelalogin.png";
+import logo from "../../assets/logo.jpg";
 import {themes} from "../../global/themes";
 
 export default function Login() {
@@ -18,7 +18,7 @@ export default function Login() {
                 <Text style={styles.text}>Bem vindo de volta!</Text>
             </View>
             <View style={styles.boxMid}>
-                <Text style={styles.titleInput}>EMAIL</Text>
+                <Text style={styles.titleInput}>Endereço de email</Text>
                 <View style={styles.boxInput}>
                     <TextInput style={styles.input}/>
                     <MaterialIcons
